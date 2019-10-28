@@ -1,5 +1,5 @@
 {% set name = "cockroachdb" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 6c8fa551e27cfecaaf4230b5155a0928fa1e946294d83235e1e1601f326e61f7
+  sha256: ef7aa1baf47f1ec8b187d7850f7996566a4131457fa69cb9490536e698f4540b
 
 build:
   noarch: python
